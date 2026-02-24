@@ -1,0 +1,20 @@
+name: Close stale issues
+
+on:
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/stale@v10
+        with:
+          days-before-stale: 365
+          days-before-close: 0
+          close-issue-message: "Closing stale issues."
+          days-before-pr-stale: -1
+          days-before-pr-close: -1
+          operations-per-run: 1000
