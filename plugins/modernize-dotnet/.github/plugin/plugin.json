@@ -1,0 +1,18 @@
+{
+  "name": "modernize-dotnet",
+  "version": "1.0.919-preview1",
+  "description": "AI-powered .NET modernization and upgrade assistant. Helps upgrade .NET Framework and .NET applications to the latest versions of .NET.",
+  "author": {
+    "name": "Microsoft"
+  },
+  "keywords": [
+    ".NET",
+    "modernization",
+    "upgrade",
+    "migration",
+    "dotnet"
+  ],
+  "repository": "https://github.com/dotnet/upgrade-assistant",
+  "homepage": "https://dotnet.microsoft.com/en-us/platform/modernize",
+  "license": "MIT"
+}
